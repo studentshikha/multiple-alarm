@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alarm app</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h1 class="main-heading">Multiple Timers App</h1>
+        <div class="timer">
+            <p>Set Time: </p>
+            <div>
+                <input type="number" placeholder="hh" min="0" max="23"  id="hours"/>
+                <label> : </label>
+                <input type="number" placeholder="mm" min="0" max="59"  id="minutes"/>
+                <label> : </label>
+                <input type="number" placeholder="ss" min="0" max="59"  id="seconds"/>
+             </div>
+            <button id="set-button">Set</button>
+        </div>
+        <div class="currentTimer"> <p>current timers</p> </div>
+        <div id=" no timer">  
+            <!-- for no timer -->
+       </div>
+        <div id="timerscontainer"  >
+           <!-- jf;jdskj -->
+        </div>
+        <audio id="timer-end">
+            <source src="clock-alarm-8761.mp3" />
+          </audio>
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
